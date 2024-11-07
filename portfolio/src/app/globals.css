@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+body {
+  @apply bg-black text-white;
+}
+
+@layer base {
+  :root {
+    --color-text-base: #grayCCCCCC;  /* Light gray for text */
+    --font-text-base: Poppins;
+    --color-fill: #111215;      /* Light gray for background */
+  }
+}
+
+
+#grad1 {
+  background: radial-gradient(circle,#0F3A72, #0F3A72,#000000,#000000);
+}
+
+.grad1{
+  background: radial-gradient(circle,#0F3A72, #0F3A72,#000000,#000000);
+}
